@@ -14,7 +14,11 @@ A terminal-based Python tool to **encrypt and decrypt image files securely** usi
 - Includes styled terminal output with progress bars and ASCII art banners.
 
 ---
+## 📸 Demo
 
+![ImgCrypt Demo](demo.jpg) *(Optional: Include a GIF showing terminal use)*
+
+---
 ## 🚀 Features
 
 - 🔐 **AES-128 encryption (Fernet-based)**
