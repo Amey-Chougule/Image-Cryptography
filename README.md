@@ -29,36 +29,26 @@ A terminal-based Python tool to **encrypt and decrypt image files securely** usi
 ## 📁 Project Structure
 
 image-cryptography/
-├── main.py # Main Python script
-├── requirements.txt # Python dependencies
-├── .gitignore # Files to exclude from Git
-├── README.md # Project documentation
-├── LICENSE # Open source license
-├── secret.key # Encryption key (generated locally)
-├── original_image.jpg # Input image (not committed)
-├── encrypted_image.bin # Output (not committed)
-├── decrypted_image.jpg # Output (not committed)
+- ├── main.py # Main Python script
+- ├── requirements.txt # Python dependencies
+- ├── .gitignore # Files to exclude from Git
+- ├── README.md # Project documentation
+- ├── LICENSE # Open source license
+- ├── secret.key # Encryption key (generated locally)
+- ├── original_image.jpg # Input image (not committed)
+- ├── encrypted_image.bin # Output (not committed)
+- ├── decrypted_image.jpg # Output (not committed)
 
-
-
----
-
-## 📦 Requirements
-
-Install dependencies using:
-
-bash
-pip install -r requirements.txt
 
 ---
 ## 🧰 How to Clone and Run the Project
-# 1. Clone the repository
-git clone https://github.com/yourusername/image-cryptography.git
+### 1. Clone the repository
+git clone [https://github.com/yourusername/image-cryptography.git](https://github.com/Amey-Chougule/Image-Cryptography.git)
 cd image-cryptography
 
-# 2. Install dependencies
+### 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Run the tool
+### 3. Run the tool
 python main.py
 
