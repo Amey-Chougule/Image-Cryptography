@@ -16,7 +16,7 @@ A terminal-based Python tool to **encrypt and decrypt image files securely** usi
 ---
 ## 📸 Demo
 
-![ImgCrypt Demo](demo.jpg) *(Optional: Include a GIF showing terminal use)*
+![ImgCrypt Demo](demo.jpg) 
 
 ---
 ## 🚀 Features
