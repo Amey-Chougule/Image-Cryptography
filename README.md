@@ -1,4 +1,4 @@
-# 🖼️ ImgCrypt 🔐
+# 🖼️ Image Cryptography 🔐
 
 A stylish, terminal-based tool to **encrypt and decrypt images securely using Python and Fernet (AES)**. Designed with progress animations and colorful CLI output for a satisfying and secure experience.
 
