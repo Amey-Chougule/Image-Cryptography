@@ -1,30 +1,29 @@
-# Image-Cryptography
+# 🖼️ ImgCrypt 🔐
 
-📝 Project Description
-ImgCrypt 🔐 is a stylish, terminal-based tool written in Python that allows you to securely encrypt and decrypt image files using AES-based Fernet symmetric encryption. It provides a clean, interactive command-line interface enhanced with colorful animations and ASCII art, making encryption feel both secure and satisfying.
+A stylish, terminal-based tool to **encrypt and decrypt images securely using Python and Fernet (AES)**. Designed with progress animations and colorful CLI output for a satisfying and secure experience.
 
-Designed for simplicity and clarity, ImgCrypt is perfect for:
+---
 
-Developers learning about encryption basics
+## 🚀 Features
 
-Students building cybersecurity or Python-based projects
+- 🔐 AES-based symmetric encryption using `cryptography.Fernet`
+- 🖼️ Supports image formats like `.jpg`, `.png`, `.bmp`, etc.
+- 🎨 Terminal styling with `colorama` & `pyfiglet` for a techy look
+- 📊 Smooth progress bar animations with `tqdm`
+- 📁 Simple file structure — beginner friendly
+- 🔑 Key generation & secure binary encryption
 
-Anyone needing a simple way to protect image data on local machines
+---
 
-Whether you're safeguarding personal images or demonstrating data security techniques in a presentation, ImgCrypt offers both form and function.
+## 📸 Demo
 
-🔧 Key Highlights
-📦 Single-file tool (easy to use & share)
+![ImgCrypt Demo](demo.gif) *(Optional: Include a GIF showing terminal use)*
 
-🛡️ Secure AES encryption using the cryptography package
+---
 
-🎨 Colorful terminal UI using colorama and pyfiglet
+## 📦 Requirements
 
-📊 Progress animation via tqdm for encrypt/decrypt operations
+Install all dependencies with:
 
-🧠 Clear code structure and educational design — ideal for learners
-
-🗝️ One-time key generation with persistent key reuse
-
-📁 Binary-safe processing of any image format (JPG, PNG, etc.)
-
+```bash
+pip install -r requirements.txt
